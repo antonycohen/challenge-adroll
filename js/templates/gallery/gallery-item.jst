@@ -1,0 +1,13 @@
+<li>
+    <div class="item">
+        <img src="<%=item.get('image_teaser_url')%>" width="200" height="150"/>
+        <div class="overlay">
+            <strong></strong>
+            <span></span>
+        </div>
+        <div class="tools">
+            <span class="nb-likes"><%- $.i18n.translate('ns.common:item.likes_count', { count: item.get('likes_count')})%></span>
+            <span class="nb-comments"><%- $.i18n.translate('ns.common:item.comments_count', { count: item.get('comments_count')})%></span>
+        </div>
+    </div>
+</li>

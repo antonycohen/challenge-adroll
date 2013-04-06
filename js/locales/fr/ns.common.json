@@ -1,0 +1,16 @@
+{
+    "common" : {
+        "menu" : {
+            "popular" : "popular",
+            "debuts" : "debuts",
+            "everyone" : "everyone"
+        },
+        "load_more" : "Load more"
+    },
+    "item" : {
+        "likes_count_plural" : "__count__  like",
+        "likes_count" : "__count__  likes",
+        "comments_count_plural" : "__count__  comment",
+        "comments_count" : "__count__  comments"
+    }
+}
